@@ -103,6 +103,7 @@ import stocks from "./stocks/widget";
 import strelaysrv from "./strelaysrv/widget";
 import swagdashboard from "./swagdashboard/widget";
 import tailscale from "./tailscale/widget";
+import headscale from "./headscale/widget";
 import tandoor from "./tandoor/widget";
 import tautulli from "./tautulli/widget";
 import technitium from "./technitium/widget";
@@ -233,6 +234,7 @@ const widgets = {
   strelaysrv,
   swagdashboard,
   tailscale,
+  headscale,
   tandoor,
   tautulli,
   technitium,

@@ -112,6 +112,7 @@ const components = {
   strelaysrv: dynamic(() => import("./strelaysrv/component")),
   swagdashboard: dynamic(() => import("./swagdashboard/component")),
   tailscale: dynamic(() => import("./tailscale/component")),
+  headscale: dynamic(() => import("./headscale/component")),
   tandoor: dynamic(() => import("./tandoor/component")),
   tautulli: dynamic(() => import("./tautulli/component")),
   technitium: dynamic(() => import("./technitium/component")),
