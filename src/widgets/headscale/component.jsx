@@ -25,7 +25,6 @@ export default function Component({ service }) {
     );
   }
 
-
   const now = new Date();
   const compareDifferenceInTwoDates = (priorDate, futureDate) => {
     const diff = futureDate.getTime() - priorDate.getTime();
@@ -55,7 +54,7 @@ export default function Component({ service }) {
     const date = new Date(statsData.node.expiry);
     return compareDifferenceInTwoDates(now, date);
   };
-  const isOnline = (statsData.node.online) ? t("headscale.online") : t("headscale.offline");
+  const isOnline = statsData.node.online ? t("headscale.online") : t("headscale.offline");
 
   return (
     <Container service={service}>
